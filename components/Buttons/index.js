@@ -1,5 +1,6 @@
 import React from 'react';
 import {Text,View ,Pressable} from 'react-native';
+import styles from '../Buttons/styles';
 
 const StyledButton = (props) =>{
 
@@ -8,9 +9,9 @@ const StyledButton = (props) =>{
         
         <View>
         <Pressable
-        style={style.button}
+        style={styles.button}
         onPress={()=>{
-            console.warn('hey wrong turn');
+            console.warn('hey wrong turn you wu=ill be die');
         }}
         >
           <Text >Order Now</Text>  
